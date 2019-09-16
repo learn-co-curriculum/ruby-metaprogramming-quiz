@@ -74,7 +74,7 @@ ArgumentError: wrong number of arguments (given 1, expected 2)
 ?:
 
 ```ruby
-def greeting(name, programming_language)
+def greeting(name:, programming_language:)
   puts "Hello, #{name}"
   puts "Welcome to the #{programming_language} curriculum"
 end
